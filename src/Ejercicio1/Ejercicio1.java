@@ -1,7 +1,6 @@
 
 package Ejercicio1;
 
-import java.awt.Container;
 import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import javax.swing.JSlider;
@@ -10,9 +9,9 @@ public class Ejercicio1 extends javax.swing.JFrame {
 
     public Ejercicio1() {
         initComponents();
-        this.setBounds(225,100,300,500);
+        this.setBounds(500,100,300,500);
         this.setTitle("Mini encuesta");
-        Container conpane = getContentPane();
+        this.setResizable(false);
         
         
     }
